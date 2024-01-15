@@ -1,0 +1,9 @@
+{% extends "blog/base.html" %}
+
+{% block contenido  %}
+
+    <h1>Entrega</h1>
+
+    <button><a href="{% url 'post_list' %}">Ver post</a></button>
+    <button><a href="{% url 'post_create' %}">crear post</a></button>  
+{% endblock contenido %}
